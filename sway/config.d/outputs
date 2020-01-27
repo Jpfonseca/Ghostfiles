@@ -1,0 +1,17 @@
+### Output configuration
+#
+# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+# 
+# output eDP-1 bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+
+output eDP-1 bg /home/planck/wallhaven-ym3rpk.jpg fill
+output DP-1 bg /home/planck/1441378593456.jpg fill
+output HDMI-A-1 bg /home/planck/wallhaven-ym3rpk.jpg fill
+output HDMI-A-2 bg /home/planck/wallhaven-ym3rpk.jpg fill
+
+#
+# Example configuration:
+#
+#   output HDMI-A-1 resolution 1920x1080 position 1920,0
+#
+# You can get the names of your outputs by running: swaymsg -t get_outputs

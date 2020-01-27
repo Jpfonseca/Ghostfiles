@@ -1,0 +1,21 @@
+#
+#
+#Æstetics
+#
+#
+
+#Disable Qt decorations
+exec QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
+exec GDK_BACKEND=wayland
+
+#r/unixporn stuff
+#
+client.focused #212121 #424242 #ffffff #0d47a1 #1976d2
+
+default_border pixel
+gaps inner 3
+gaps outer 1
+smart_gaps on
+
+set $opacity 0.9
+for_window [app_id="kitty"] opacity $opacity
