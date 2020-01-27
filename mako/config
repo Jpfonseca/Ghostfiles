@@ -1,0 +1,16 @@
+font=Roboto 8 
+sort=+time
+width=350
+border-radius=8
+border-size=1
+max-visible=1
+layer=top
+anchor=bottom-right
+icons=1
+max-icon-size=64
+icon-path=usr/share/icons/hicolor/
+markup=1
+text-color=#000000
+background-color=#00897b
+border-color=#005b4f
+
