@@ -4,16 +4,19 @@
 bar {
     #position top
     position bottom
-
+    font "Roboto" 9.5 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     #status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
-    status_command while i3status -c $HOME/.config/i3status/i3status.conf; do sleep 1; done
+    #status_command while i3status -c $HOME/.config/i3status/i3status.conf; do sleep 1; done
     #swaybar_command waybar
-
+    separator_symbol |
+    status_command while ~/.config/sway/scripts/swaybar.sh; do sleep 1; done
     colors {
-        statusline #ffffff
-        background #323232
+        separator #FF0000
+        statusline #FFFFFF
+        background #002B36
         inactive_workspace #32323200 #32323200 #5c5c5c
+        
     }
 }

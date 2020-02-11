@@ -10,7 +10,6 @@ icons=1
 max-icon-size=64
 icon-path=usr/share/icons/hicolor/
 markup=1
-text-color=#000000
-background-color=#00897b
-border-color=#005b4f
-
+background-color=#002B36
+text-color=#839496
+border-color=#073642

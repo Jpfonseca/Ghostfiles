@@ -17,5 +17,5 @@ gaps inner 3
 gaps outer 1
 smart_gaps on
 
-set $opacity 0.9
+set $opacity 0.8
 for_window [app_id="kitty"] opacity $opacity

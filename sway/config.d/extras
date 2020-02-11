@@ -24,3 +24,5 @@ bindsym $mod+o output eDP-1 enable
      #Mute sound volume
      bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
+#Sgtk-menu 
+	bindsym $mod+x exec sgtk-bar -o 0.7

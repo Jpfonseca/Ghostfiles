@@ -1,0 +1,9 @@
+*
+!.gitignore
+!i3status/
+!mako/
+!pulse/
+!pics/
+!sway/
+!sgtk-menu/
+
