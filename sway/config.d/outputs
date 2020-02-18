@@ -9,9 +9,13 @@ output DP-1 bg /home/planck/1441378593456.jpg fill
 output HDMI-A-1 bg /home/planck/wallhaven-ym3rpk.jpg fill
 output HDMI-A-2 bg /home/planck/wallhaven-ym3rpk.jpg fill
 
-#
+
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+
+#Using kanshi for output configuration 
+bindsym $mod+Shift+r exec kanshi
+
