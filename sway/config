@@ -29,7 +29,7 @@ set $menu bemenu-run --scrollbar autohide
 
 ### Idle configuration
  exec swayidle -w \
-          timeout 600 'exec /usr/bin/lock -f -c 000000' \
+#          timeout 600 'exec /usr/bin/lock -f -c 000000' \
           timeout 800 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
           before-sleep 'exec /usr/bin/lock -f -c 000000'
@@ -39,8 +39,7 @@ set $menu bemenu-run --scrollbar autohide
 # resumed. It will also lock your screen before your computer goes to sleep.
 
 # FONT
-font "Noto Sans" 9
-#, "Noto Sans Emoji" 9
+font pango:Noto Sans Nerd Mono 9
 
 ### Key bindings
 #

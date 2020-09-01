@@ -7,6 +7,9 @@
 #Disable Qt decorations
 exec QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
 exec GDK_BACKEND=wayland
+xwayland enable
+
+exec kanshi
 
 #r/unixporn stuff
 #
@@ -19,3 +22,6 @@ smart_gaps on
 
 set $opacity 0.8
 for_window [app_id="kitty"] opacity $opacity
+for_window [app_id="keepassxc"] floating enable
+for_window [class="^Pavucontrol$"] floating enable
+for_window [app_id="pavucontrol"] floating enable

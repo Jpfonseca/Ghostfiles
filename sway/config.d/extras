@@ -26,3 +26,7 @@ bindsym $mod+o output eDP-1 enable
 
 #Sgtk-menu 
 	bindsym $mod+x exec sgtk-bar -o 0.7
+
+#Wlrportal
+exec /usr/lib/xdg-desktop-portal -r
+exec /usr/lib/xdg-desktop-portal-wlr -p BGRx

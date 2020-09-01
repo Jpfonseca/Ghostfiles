@@ -9,7 +9,17 @@
 
 {
 	output eDP-1 enable position 0,0
+	output "Goldstar Company Ltd LG FULL HD " enable mode 1920x1080  position 1366,0    
+}
+
+{
+	output eDP-1 enable position 0,0
 	output "Hewlett Packard HP E222 6CM6411B0J" enable mode 1920x1080 position 1366,0
+}
+
+{
+	output eDP-1 enable position 1920,0
+	output "Avolites Ltd HDTV 0x00000000" enable mode 1920x1080 position 0,0
 }
 
 {
@@ -17,3 +27,4 @@
 	output "Goldstar Company Ltd LG FULL HD 901NTPC3W096" enable mode 1920x1080 position 1366,0
 	output "Hewlett Packard HP E222 6CM6411B0J" enable mode 1920x1080 position 3286,0
 }
+
