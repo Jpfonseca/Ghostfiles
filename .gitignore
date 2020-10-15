@@ -7,6 +7,9 @@
 !pulse/*
 !pics/*
 !sway/*
+!sway/scripts/*
+!sway/conf.d/
+!swappy/*
 !sgtk-menu/*
 !kanshi/*
 !vim/*

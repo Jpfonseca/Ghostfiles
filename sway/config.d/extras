@@ -4,6 +4,9 @@ exec mako
 #Printscreen
 bindsym  --release $mod+Shift+Print exec grim -g "$(slurp)" $HOME/Screenshots/screenshot$(date +"%Y%m%d%H%M").png
 
+#Printscreen+swappy
+bindsym  --release $mod+Print exec grim -g "$(slurp)" - | swappy -f - 
+
 #Lockscreen
 bindsym $mod+Shift+Delete exec /usr/bin/lock
 
