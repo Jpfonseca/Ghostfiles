@@ -5,6 +5,7 @@
 !i3status/*
 !mako/*
 !pulse/*
+!pulse/daemon.conf
 !pics/*
 !sway/*
 !sway/scripts/*
