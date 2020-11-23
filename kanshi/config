@@ -28,3 +28,7 @@
 	output "Hewlett Packard HP E222 6CM6411B0J" enable mode 1920x1080 position 3286,0
 }
 
+{
+        output eDP-1 enable position 0,0
+        output "Dell Inc. DELL U2410 F525M1440UNL" enable mode 1920x1200 position 1366,0
+}

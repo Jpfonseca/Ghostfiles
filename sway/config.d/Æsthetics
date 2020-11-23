@@ -5,8 +5,11 @@
 #
 
 #Disable Qt decorations
-exec QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
-exec GDK_BACKEND=wayland
+#exec QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
+#exec GDK_BACKEND=wayland
+#exec QT_QPA_PLATFORM=wayland
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK || true
+#exec QT_AUTO_SCREEN_SCALE_FACTOR=1
 xwayland enable
 
 exec kanshi
