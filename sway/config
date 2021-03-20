@@ -18,7 +18,7 @@ set $term kitty
 
 # Your preferred application launcher
 #set $menu dmenu_run 
-set $menu bemenu-run --scrollbar autohide 
+set $menu BEMENU_BACKEND=wayland bemenu-run --scrollbar autohide 
 
 #
 # Example configuration:

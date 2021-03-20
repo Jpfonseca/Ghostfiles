@@ -14,8 +14,10 @@ xwayland enable
 
 exec kanshi
 
+exec gammastep-indicator 
+
 #r/unixporn stuff
-#
+
 client.focused #212121 #424242 #ffffff #0d47a1 #1976d2
 
 default_border pixel

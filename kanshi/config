@@ -9,7 +9,7 @@
 
 {
 	output eDP-1 enable position 0,0
-	output "Goldstar Company Ltd LG FULL HD " enable mode 1920x1080  position 1366,0    
+	output "Goldstar Company Ltd LG FULL HD " enable mode 1920x1080 position 1366,0
 }
 
 {
