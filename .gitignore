@@ -1,23 +1,32 @@
-*
+**
 !README.m/cantata.confd
 !.gitignore
 
+!i3status/
 !i3status/*
 !i3status/i3status.conf
 
+!mako/
 !mako/*
 !mako/config
 
+!pulse/
 !pulse/*
 !pulse/daemon.conf
 
+!pics/
 !pics/*
 !pics/neofetch
 
+!sway/
 !sway/*
+
 !sway/config
 
+!sway/scripts/
 !sway/scripts/*
+
+!sway/config.d/
 !sway/config.d/*
 !sway/config.d/Æsthetics
 !sway/config./extras
@@ -26,9 +35,11 @@
 !sway/config./swaybar
 !sway/config./workspaces
 
+!swappy/
 !swappy/*
 !swappy/config
 
+!sgtk-menu/
 !sgtk-menu/*
 !sgtk-menu/appendix
 !sgtk-menu/appendix-i3
@@ -40,14 +51,17 @@
 !sgtk-menu/icon-missing.svg
 !sgtk-menu/style.css
 
+!kanshi/
 !kanshi/*
 !kanshi/config
 
+!vim/
 !vim/*
 !vim/vimrc
 
+!mpd/
 !mpd/*
 !mpd/mpd.conf
 
-!cantata/*
+!cantata/**
 !cantata/cantata.conf
