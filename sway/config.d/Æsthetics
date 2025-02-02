@@ -22,7 +22,7 @@ exec XDG_CURRENT_DESKTOP=sway
 exec kanshi
 
 #exec gammastep-indicator 
-exec wlsunset -l 41.3874 -L 2.1686&
+exec wlsunset -l 41.3874 -L 2.1686 -T 5700 -t 3600 &
 
 #r/unixporn stuff
 

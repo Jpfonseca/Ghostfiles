@@ -7,12 +7,12 @@
 #output eDP-1 bg /home/planck/wallhaven-ym3rpk.jpg fill
 #output DP-1 bg /home/planck/1441378593456.jpg fill
 #output HDMI-A-1 bg /home/planck/wallhaven-ym3rpk.jpg fill
-#output HDMI-A-2 bg /home/planck/wallhaven-ym3rpk.jpg fill
+#output HDMI-A-2 bg /home/planck/wallhaven-ym3rpk.jpg fill, strech, fit
 
-output eDP-1 bg `/home/planck/.config/sway/scripts/random_bg` fill
-output DP-1 bg `/home/planck/.config/sway/scripts/random_bg` fill
-output HDMI-A-1 bg `/home/planck/.config/sway/scripts/random_bg` fill
-output HDMI-A-2 bg `/home/planck/.config/sway/scripts/random_bg` fill
+output eDP-1 bg `/home/planck/.config/sway/scripts/random_bg` stretch
+output DP-1 bg `/home/planck/.config/sway/scripts/random_bg` stretch
+output HDMI-A-1 bg `/home/planck/.config/sway/scripts/random_bg` stretch
+output HDMI-A-2 bg `/home/planck/.config/sway/scripts/random_bg` stretch
 
 
 #output * bg `$HOME/.config/sway/random_bg` fill
