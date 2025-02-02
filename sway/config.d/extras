@@ -16,7 +16,7 @@ bindsym $mod+Shift+Delete exec /usr/bin/lock
      bindsym XF86MonBrightnessDown exec brightnessctl s 1%-
 
 #ScreenSaver
-bindsym XF86ScreenSaver output eDP-1 disable
+bindsym $mod+Shift+o output eDP-1 disable
 bindsym $mod+o output eDP-1 enable
 
 #Sound control
@@ -26,10 +26,16 @@ bindsym $mod+o output eDP-1 enable
 
      #Mute sound volume
      bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+     bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 0 toggle
 
 #Sgtk-menu 
 	bindsym $mod+x exec sgtk-bar -o 0.7
 
 #Wlrportal
-exec /usr/lib/xdg-desktop-portal -r
-exec /usr/lib/xdg-desktop-portal-wlr -p BGRx
+exec dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY
+
+exec /usr/lib/xdg-desktop-portal -r -v & /usr/lib/xdg-desktop-portal-wlr -r
+
+exec /usr/lib/polkit-kde-authentication-agent-1

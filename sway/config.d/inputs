@@ -13,4 +13,4 @@
 # Read `man 5 sway-input` for more information about this section.
 
 input * xkb_layout "pt"
-input * xkb_model "asus"
+#input * xkb_model "asus"

@@ -8,13 +8,21 @@
 #exec QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
 #exec GDK_BACKEND=wayland
 #exec QT_QPA_PLATFORM=wayland
-exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK || true
+#exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK || true
 #exec QT_AUTO_SCREEN_SCALE_FACTOR=1
 xwayland enable
 
+exec systemctl --user import-environment XDG_SESSION_TYPE XDG_CURRENT_DESKTOP
+exec dbus-update-activation-environment WAYLAND_DISPLAY
+
+exec XDG_SESSION_TYPE=wayland
+exec XDG_CURRENT_DESKTOP=sway
+
+
 exec kanshi
 
-exec gammastep-indicator 
+#exec gammastep-indicator 
+exec wlsunset -l 41.3874 -L 2.1686&
 
 #r/unixporn stuff
 

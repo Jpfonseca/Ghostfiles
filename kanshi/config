@@ -1,34 +1,43 @@
-{
-	output eDP-1 enable
+profile {
+	output eDP-1 enable adaptive_sync on
 }
 
-{
+profile {
 	output eDP-1 enable position 0,0
-	output "Goldstar Company Ltd LG FULL HD 901NTPC3W096" enable mode 1920x1080  position 1366,0    
+	output HDMI-A-1 enable adaptative_sync on mode 3840x2160 position 1921,0
 }
 
-{
+profile {
+	output eDP-1 enable adaptive_sync on mode 1920x1080 position 0,0
+	output DP-1 enable adaptive_sync on mode 1920x1080 position 1921,0
+}
+
+profile {
 	output eDP-1 enable position 0,0
-	output "Goldstar Company Ltd LG FULL HD " enable mode 1920x1080 position 1366,0
+	output "HP Inc. HP E24q G4 CNK2420WBC" enable mode 2560x1440 position 1921,0
 }
 
-{
-	output eDP-1 enable position 0,0
-	output "Hewlett Packard HP E222 6CM6411B0J" enable mode 1920x1080 position 1366,0
+profile {
+	output eDP-1 enable adaptive_sync on position 0,0
+	output "Hewlett Packard HP E222 6CM6411B0J" enable adaptive_sync on mode 1920x1080 position 1921,0
 }
 
-{
+profile {
+	output eDP-1 enable mode 1920x1080 @ 60.024 Hz position 0,0
+	output HDMI-A-1 enable mode 1920x1080 position 1921,0
+}
+
+profile {
 	output eDP-1 enable position 1920,0
 	output "Avolites Ltd HDTV 0x00000000" enable mode 1920x1080 position 0,0
 }
 
-{
+profile {
 	output eDP-1 enable position 0,0
-	output "Goldstar Company Ltd LG FULL HD 901NTPC3W096" enable mode 1920x1080 position 1366,0
-	output "Hewlett Packard HP E222 6CM6411B0J" enable mode 1920x1080 position 3286,0
+	output DP-1 enable mode 1920x1080 position 1921,0
 }
 
-{
-        output eDP-1 enable position 0,0
-        output "Dell Inc. DELL U2410 F525M1440UNL" enable mode 1920x1200 position 1366,0
+profile {
+	output eDP-1 enable position 0,0
+	output "Dell Inc. DELL U2410 F525M1440UNL" enable mode 1920x1200 position 1921,0
 }
